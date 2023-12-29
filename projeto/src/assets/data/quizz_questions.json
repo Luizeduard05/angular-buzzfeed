@@ -1,0 +1,52 @@
+{
+    "title":"Você seria um cachorro ou gato ?",
+    "questions":[
+      {
+        "id":1,
+        "question": "Prefere interagir com muitas pessoas ou apenas alguns amigos próximos?",
+        "options":[
+          {"id": 1, "name":"Apenas alguns amigos próximos", "alias":"A"},
+          {"id": 2, "name":"Muitas pessoas", "alias":"B"}
+        ]
+      },
+      {
+        "id":2,
+        "question": "Como você lida com mudanças na rotina?",
+        "options":[
+          {"id": 1, "name":"Prefiro estabilidade", "alias":"A"},
+          {"id": 2, "name":"Não gosto de sair da zona de conforto", "alias":"A"},
+          {"id": 3, "name":"Bem", "alias":"B"}
+        ]
+      },
+      {
+        "id":3,
+        "question": "Tempo sozinho é...",
+        "options":[
+          {"id": 1, "name":"Tolerável", "alias":"B"},
+          {"id": 2, "name":"Necessário e apreciado", "alias":"A"},
+          {"id": 3, "name":"Importante", "alias":"A"},
+          {"id": 4, "name":"Entediante", "alias":"B"}
+        ]
+      },
+      {
+        "id":4,
+        "question": "Prefiro ambientes...",
+        "options":[
+          {"id": 1, "name":"Calmos e tranquilos", "alias":"A"},
+          {"id": 2, "name":"Movimentados e agitados ", "alias":"B"}
+        ]
+      },
+      {
+        "id":5,
+        "question": "Qual palavra descreve melhor sua personalidade?",
+        "options":[
+          {"id": 1, "name":"Independente", "alias":"A"},
+          {"id": 2, "name":" Leal", "alias":"B"}
+        ]
+      }
+    ],
+    "results":{
+      "A": "Você muito provavelmente seria um gato!",
+      "B": "Você muito provavelmente seria um cachorro!"
+    }
+  }
